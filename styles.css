@@ -6,12 +6,26 @@
 
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background: #f8f9fa;
     text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.header-gmail, .header-image, .material-symbols-outlined {
+    color: #68696a;
+    margin: 10px
+}
+
+.header-button {
+    color: white;
+    background-color: #1b73e7;
 }
 
 #search-container {
@@ -19,6 +33,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
     width: 100%;
 }
 
@@ -31,7 +46,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 2400px;
+    max-width: 1600px;
 }
 
 input[type="text"] {
@@ -39,16 +54,30 @@ input[type="text"] {
     padding: 10px;
     border-radius: 24px;
     width: 100%;
-    max-width: 500px;
+    max-width: 550px;
     font-size: 16px;
     outline: none;
 }
 
+.search-box .fa-magnifying-glass {
+    position: absolute;
+    left: 390px;
+    color: #68696a;
+    font-size: 14px;
+}
+
+.search-box .fa-keyboard {
+    position: absolute;
+    right: 450px;
+    color: #81858b;
+    font-size: 18px;
+}
+
 button {
-    margin: 10px 0 10px 0;
+    margin: 10px 5px 10px 5px;
     padding: 10px 20px;
     background: #f3f3f4;
-    color: #5f6368;
+    color: #68696a;
     border: 1px solid #f3f3f4;
     border-radius: 5px;
     cursor: pointer;
@@ -61,13 +90,15 @@ button:hover {
 
 .language {
     margin-top: 10px;
-    color: #5f6368;
+    color: #81858b;
     font-size: 14px;
-    
+
 }
+
 .language-change {
     color: #0000ff;
 }
+
 .language-change:hover {
     cursor: pointer;
 }

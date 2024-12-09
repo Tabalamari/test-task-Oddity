@@ -4,19 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=apps" />
     <link rel="stylesheet" href="styles.css">
     <title>Google</title>
-        
+</head>
+
+
+
 </head>
 
 <body>
-    <div id="search-container">
-        <img src="logo/googlelogo_color_272x92dp.png" width="300px" alt="Google Logo"id="logo" />
+    
+    <header class="header">
+        <p class="header-gmail">Gmail</p>
+        <p class="header-image">Зображення</p>
+        <span class="material-symbols-outlined">apps</span>
+        <button class="header-button">Увійти</button>
+    </header>
+   <div id="search-container">
+        <img src="logo/googlelogo_color_272x92dp.png" width="300px" alt="Google Logo" id="logo" />
         <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text">
+            <i class="fa-solid fa-keyboard"></i>
+           
         </div>
         <div style="margin-top: 20px;">
-            <button >Пошук Google</button>
+            <button>Пошук Google</button>
             <button>Мені пощастить</button>
         </div>
         <p class="language">Мова Google: <span class="language-change">English</span></p>
