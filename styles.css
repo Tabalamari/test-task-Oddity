@@ -22,7 +22,8 @@ body {
 .header-image,
 .material-symbols-outlined {
     color: #68696a;
-    margin: 10px
+    margin: 10px;
+    cursor: pointer;
 }
 
 .header-button {
@@ -72,6 +73,7 @@ input[type="text"] {
     left: 380px;
     color: #81858b;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .search-box .fa-keyboard {
@@ -79,6 +81,19 @@ input[type="text"] {
     right: 450px;
     color: #81858b;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.search-box .search-by-voice {
+    position: absolute;
+    right: 410px;
+    cursor: pointer;
+}
+
+.search-box .search-by-image {
+    position: absolute;
+    right: 380px;
+    cursor: pointer;
 }
 
 button {
