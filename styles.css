@@ -43,6 +43,12 @@ body {
     margin-bottom: 20px;
 }
 
+#oddity {
+    display: none;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
 .search-box {
     display: flex;
     justify-content: center;
@@ -153,6 +159,7 @@ hr {
     align-items: center;
 
 }
+
 .footer-confidentiality span {
     margin: 0 10px 10px 10px;
 }

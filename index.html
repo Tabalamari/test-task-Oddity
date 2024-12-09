@@ -8,6 +8,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=apps" />
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Google</title>
 </head>
 
@@ -24,7 +25,8 @@
         <button class="header-button">Увійти</button>
     </header>
     <div id="search-container">
-        <img src="logo/googlelogo_color_272x92dp.png" width="300px" alt="Google Logo" id="logo" />
+        <img id="logo" src="logo/googlelogo_color_272x92dp.png" width="300px" />
+        <p id="oddity">Oddity</p>
         <div class="search-box">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text">
@@ -33,7 +35,7 @@
         </div>
         <div style="margin-top: 20px;">
             <button>Пошук Google</button>
-            <button>Мені пощастить</button>
+            <button onclick="changeLogo()">Мені пощастить</button>
         </div>
         <p class="language">Мова Google: <span class="language-change">English</span></p>
     </div>
@@ -48,7 +50,7 @@
                 <span>Для бізнесу</span>
                 <span>Як працює пошук</span>
             </div>
-            
+
             <div class="footer-confidentiality">
                 <span>Конфіденційність</span>
                 <span>Умови</span>
